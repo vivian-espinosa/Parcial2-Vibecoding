@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="Sitio educativo de Vivian Espinosa sobre Vibe Coding, desarrollo con inteligencia artificial y agentes." name="description"/>
+  <title>
+   Laboratorio | Vibe Coding
+  </title>
+  <link href="css/estilos.css" rel="stylesheet"/>
+  <script defer="" src="js/app.js">
+  </script>
+ </head>
+ <body>
+  <a class="skip-link" href="#contenido">
+   Saltar al contenido
+  </a>
+  <header class="site-header">
+   <div class="container header-layout">
+    <a class="brand" href="index.html">
+     <span class="brand-icon">
+      &lt;/&gt;
+     </span>
+     <span>
+      VIBE CODING
+      <span class="brand-subtitle">
+       De una idea a una aplicaci&oacute;n
+      </span>
+     </span>
+    </a>
+    <button aria-controls="menu" aria-expanded="false" class="nav-toggle" type="button">
+     Men&uacute; ☰
+    </button>
+    <nav aria-label="Navegaci&oacute;n principal" id="menu">
+     <ul class="nav-list">
+      <li>
+       <a class="" href="index.html">
+        Inicio
+       </a>
+      </li>
+      <li>
+       <a class="" href="concepto.html">
+        Concepto
+       </a>
+      </li>
+      <li>
+       <a class="" href="herramientas.html">
+        Herramientas
+       </a>
+      </li>
+      <li>
+       <a class="" href="skills.html">
+        Skills y agentes
+       </a>
+      </li>
+      <li>
+       <a aria-current="page" class="activo" href="laboratorio.html">
+        Laboratorio
+       </a>
+      </li>
+      <li>
+       <a class="" href="impacto.html">
+        Impacto
+       </a>
+      </li>
+      <li>
+       <a class="" href="autor.html">
+        Autora
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main class="container" id="contenido">
+   <section class="page-intro">
+    <p class="eyebrow">
+     04 / LABORATORIO
+    </p>
+    <h1>
+     Aprender
+     <span>
+      probando.
+     </span>
+    </h1>
+    <p class="lead">
+     Selecciona una especialidad y observa un ejemplo de las instrucciones que podr&iacute;a recibir un asistente.
+    </p>
+    <p class="breadcrumb">
+     <a href="index.html">
+      Inicio
+     </a>
+     / Laboratorio
+    </p>
+   </section>
+   <div class="content-area">
+    <section class="content-block">
+     <h2>
+      Simulador de skills
+     </h2>
+     <p style="margin-bottom:20px">
+      Esta demostraci&oacute;n es educativa: no realiza llamadas a modelos externos ni genera c&oacute;digo real.
+     </p>
+     <div class="lab-layout">
+      <div class="lab-options">
+       <button aria-pressed="true" class="lab-option active" data-role="frontend" type="button">
+        Dise&ntilde;o frontend
+       </button>
+       <button aria-pressed="false" class="lab-option" data-role="backend" type="button">
+        Ingenier&iacute;a backend
+       </button>
+       <button aria-pressed="false" class="lab-option" data-role="qa" type="button">
+        Pruebas de calidad
+       </button>
+       <button aria-pressed="false" class="lab-option" data-role="seguridad" type="button">
+        Ciberseguridad
+       </button>
+      </div>
+      <div class="terminal">
+       <div class="terminal-head">
+        <span class="dot">
+        </span>
+        <span class="dot">
+        </span>
+        <span class="dot">
+        </span>
+        <span id="role-title" style="margin-left:10px">
+         Frontend / UI
+        </span>
+       </div>
+       <pre id="skill-code"># SKILL.md
+name: frontend
+
+# Instrucciones
+Dise&ntilde;a una interfaz clara, adaptable a m&oacute;viles y con una jerarqu&iacute;a visual consistente. Utiliza HTML sem&aacute;ntico, CSS propio y verifica accesibilidad.</pre>
+      </div>
+     </div>
+    </section>
+    <section class="content-block">
+     <h2>
+      Pon a prueba tus conocimientos
+     </h2>
+     <p style="margin-bottom:20px">
+      Responde las cinco preguntas para repasar los conceptos principales.
+     </p>
+     <form id="quiz">
+      <fieldset class="quiz-item">
+       <h3>
+        1. &iquest;Qu&eacute; es vibe coding?
+       </h3>
+       <label class="answer">
+        <input name="q1" type="radio" value="a"/>
+        Un lenguaje de programaci&oacute;n
+       </label>
+       <label class="answer">
+        <input name="q1" type="radio" value="b"/>
+        Desarrollo guiado por instrucciones en lenguaje natural
+       </label>
+       <label class="answer">
+        <input name="q1" type="radio" value="c"/>
+        Un framework CSS
+       </label>
+      </fieldset>
+      <fieldset class="quiz-item">
+       <h3>
+        2. &iquest;Para qu&eacute; sirve una skill?
+       </h3>
+       <label class="answer">
+        <input name="q2" type="radio" value="a"/>
+        Proporciona un procedimiento especializado
+       </label>
+       <label class="answer">
+        <input name="q2" type="radio" value="b"/>
+        Cambia el sistema operativo
+       </label>
+       <label class="answer">
+        <input name="q2" type="radio" value="c"/>
+        Sustituye todas las pruebas
+       </label>
+      </fieldset>
+      <fieldset class="quiz-item">
+       <h3>
+        3. &iquest;Qu&eacute; permite MCP?
+       </h3>
+       <label class="answer">
+        <input name="q3" type="radio" value="a"/>
+        Dise&ntilde;ar logos autom&aacute;ticamente
+       </label>
+       <label class="answer">
+        <input name="q3" type="radio" value="b"/>
+        Escribir solo HTML
+       </label>
+       <label class="answer">
+        <input name="q3" type="radio" value="c"/>
+        Conectar agentes con herramientas externas
+       </label>
+      </fieldset>
+      <fieldset class="quiz-item">
+       <h3>
+        4. &iquest;Qu&eacute; facilitan los worktrees?
+       </h3>
+       <label class="answer">
+        <input name="q4" type="radio" value="a"/>
+        Compartir una contrase&ntilde;a
+       </label>
+       <label class="answer">
+        <input name="q4" type="radio" value="b"/>
+        Trabajar en ramas separadas simult&aacute;neamente
+       </label>
+       <label class="answer">
+        <input name="q4" type="radio" value="c"/>
+        Comprar servidores
+       </label>
+      </fieldset>
+      <fieldset class="quiz-item">
+       <h3>
+        5. &iquest;Qui&eacute;n debe verificar una aplicaci&oacute;n generada por IA?
+       </h3>
+       <label class="answer">
+        <input name="q5" type="radio" value="a"/>
+        El equipo humano responsable
+       </label>
+       <label class="answer">
+        <input name="q5" type="radio" value="b"/>
+        Nadie
+       </label>
+       <label class="answer">
+        <input name="q5" type="radio" value="c"/>
+        &Uacute;nicamente el navegador
+       </label>
+      </fieldset>
+      <button class="button" type="submit">
+       Comprobar respuestas
+      </button>
+      <div aria-live="polite" class="quiz-result" id="quiz-result">
+      </div>
+     </form>
+    </section>
+   </div>
+  </main>
+  <footer class="site-footer">
+   <div class="container footer-layout">
+    <div>
+     <strong>
+      VIBE CODING
+     </strong>
+     <small>
+      Investigaci&oacute;n acad&eacute;mica &middot; Desarrollo de Software V
+     </small>
+    </div>
+    <p>
+     Elaborado por Vivian Espinosa
+     <br/>
+     Universidad Tecnol&oacute;gica de Panam&aacute; &middot; 2026
+    </p>
+    <a href="#contenido">
+     Volver arriba &uarr;
+    </a>
+   </div>
+  </footer>
+ </body>
+</html>
